@@ -4,5 +4,6 @@ btnEL.addEventListener("mouseover", (Event) => {
     const y = (Event.pageY  - btnEL.offsetleft);
 
     btnEL.style.setproperty("--xPos", x + "px");
+    btnEL.style.setproperty("--yPos", y + "px");
 }
 
