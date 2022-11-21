@@ -38,5 +38,5 @@ body{
 }
 
 .btn:hover::before {
-    
+    width: 300px;
 }
